@@ -1,0 +1,76 @@
+/*Some necessary adjustments*/
+h1, body, html, main {
+  margin: 0;
+}
+/*Import the font and set the default size*/
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px
+}
+
+header {
+  position: relative;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+header::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('../images/soup.jpg');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.6; /* Adjust this value to control darkness */
+  z-index: -1;
+}
+
+header h1 {
+  color: white;
+  font-size: 4rem;
+  font-weight: 300;
+  text-align: center;
+  z-index: 1;
+}
+
+#info {
+  padding: 1.25rem; /* 20px */
+}
+
+#info h3 {
+  font-size: 1.5rem; /* 24px */
+  margin-bottom: 0.625rem; /* 10px */
+}
+
+#info hr {
+  margin: 0.625rem 0;
+}
+
+.ingredients-list {
+  list-style: none;
+  padding: 0;
+  line-height: 1.6;
+}
+
+.ingredients-list li {
+  margin-bottom: 0.3125rem;
+}
+
+#directions {
+  padding: 1.25rem; /* 20px */
+}
+
+#directions h3 {
+  font-size: 1.5rem; /* 24px */
+  margin-bottom: 0.625rem; /* 10px */
+}
+
+img {
+  margin: 0 30%;
+}
