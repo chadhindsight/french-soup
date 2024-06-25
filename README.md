@@ -24,12 +24,11 @@
 
 We have only learned the basics today with HTML and CSS, so what the heck can we build, right? Wrong, we can create some cool stuff already and we will do just that.
 
-We all have to eat (at least, we should), so let's make some handy recipe pages. We are going to be recreating an Apple Pie recipe. As an extra step, we also prepared a French Onion Soup recipe.
+We all have to eat (at least, we should), so let's make some handy recipe pages. We are going to be recreating a French Onion Soup recipe. As an extra step, we also prepared a Tomato Basil Soup recipe.
 
 Cloning something already existing is the best way to get better at frontend development, so check out the deliverable below to see what we expect.
 
 Some starter code is already provided so you can jump right into it.
-
 
 ## Deliverable
 
